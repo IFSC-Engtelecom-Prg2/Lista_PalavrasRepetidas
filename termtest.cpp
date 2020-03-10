@@ -19,7 +19,7 @@ vector<string> roda(const string & cmd) {
 
 void verifica(int n) {
     string arq = PROG;
-    arq += "../data/arquivo"+to_string(n)+".txt";
+    arq += " ../data/arquivo"+to_string(n)+".txt";
     string arqres = "cat ../data/res"+to_string(n)+".txt";
 
     auto v = roda(arq);
